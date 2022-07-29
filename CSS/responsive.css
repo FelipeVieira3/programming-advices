@@ -1,0 +1,14 @@
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 40vw;
+    }
+
+    #advice-text::after {
+        content: url('../images/pattern-divider-desktop.svg');
+        left: 10%;
+    }
+
+    #button {
+        left: 43%;
+    }
+}

@@ -1,0 +1,80 @@
+@import url('./variáveis.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Manrope', sans-serif;
+}
+
+body {
+    background-color: var(--dark-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 80vh;
+}
+
+.container {
+    width: 90vw;
+    height: 50%;
+    text-align: center;
+
+    background-color: var(--dark-grayish-blue);
+
+    border-radius: 10px;
+
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: relative;
+}
+
+#advice-id, .advice {
+    color: var(--neon-green);
+
+    letter-spacing: 1px;
+
+    text-transform: uppercase;
+
+    font-size: .7rem;
+}
+
+#advice-text {
+    color: var(--light-cyan);
+    font-weight: 800;
+    font-size: 22px;
+
+    padding: 2rem;
+}
+
+#advice-text::after {
+    content: url('../images/pattern-divider-mobile.svg');
+    position: absolute;
+    top: 70%;
+    left: 5.5%;
+}
+
+#button {
+    position: absolute;
+    top: 90%;
+    left: 40%;
+
+    background-color: var(--neon-green);
+
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    cursor: pointer;
+}
