@@ -1,3 +1,40 @@
+@media screen and (min-width: 425px) {
+    #advice-text::after {
+        left: 10%;
+    }
+
+    #button {
+        left: 41%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 50vw;
+    }
+
+    #advice-text::after {
+        left: 11%;
+    }
+    #button {
+        left: 41.5%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+        .container {
+        width: 40vw;
+    }
+
+    #advice-text::after {
+        left: 13%;
+    }
+
+    #button {
+        left: 42%;
+    }
+}
+
 @media screen and (min-width: 1440px) {
     .container {
         width: 40vw;
