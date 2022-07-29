@@ -49,3 +49,18 @@
         left: 43%;
     }
 }
+
+@media screen and (min-width: 1506px) {
+    .container {
+        width: 30vw;
+    }
+
+    #advice-text::after {
+        content: url('../images/pattern-divider-mobile.svg');
+        left: 15%;
+    }
+
+    #button {
+        left: 41%;
+    }
+}
