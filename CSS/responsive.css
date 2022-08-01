@@ -67,15 +67,15 @@
 
 @media screen and (min-width: 1536px) {
     .container {
-        width: 30vw;
+        width: 35vw;
     }
 
     #advice-text::after {
-        content: url('../images/pattern-divider-mobile.svg');
-        left: 17%;
+        content: url('../images/pattern-divider-desktop.svg');
+        left: 8%;
     }
 
     #button {
-        left: 41%;
+        left: 44%;
     }
 }
